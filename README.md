@@ -1,16 +1,18 @@
-<<<<<<< HEAD
-# Simple Music Player in C++
+# C++ SFML Music Player
 
-## Requirements:
-- SFML installed (https://www.sfml-dev.org/download.php)
-- A valid `song.ogg` audio file in the same directory
+A simple music player built using C++ and the SFML (Simple and Fast Multimedia Library).
 
-## Build (Linux/Mac):
-g++ main.cpp -o musicplayer -lsfml-audio -lsfml-system
+## Features
 
-## Usage:
-Place `song.ogg` in the same folder and run:
-./musicplayer
-=======
-# MUSIC_PLAYER
->>>>>>> d24082909aef00621b1468c2f5d5577051e8f5a3
+- Play, pause, and resume music
+- Volume control
+- Supports multiple audio formats (e.g., OGG)
+- Simple and user-friendly interface
+
+## How to Build and Run
+
+1. Make sure SFML 2.5.1 is installed on your system.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/siddharth-uxc/MUSIC_PLAYER.git
+
